@@ -1,0 +1,11 @@
+{
+  "name": "@e-cloud/ngx-bootstrap",
+  "version": "0.0.0",
+  "peerDependencies": {
+    "@angular/animations": "^6.0.0",
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/forms": "^6.0.0",
+    "bootstrap": "^4.1.1"
+  }
+}

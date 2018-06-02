@@ -1,0 +1,6 @@
+{
+  "{.prettierrc,.stylelintrc,.lintstagedrc}": ["npm run prettier", "git add"],
+  "*.{js,json}": ["npm run prettier", "git add"],
+  "*.ts": ["tslint -p tsconfig.json --fix --force", "npm run prettier", "git add", "tslint -p tsconfig.json"],
+  "*.{scss,less,css}": ["npm run prettier", "git add", "stylelint"]
+}
